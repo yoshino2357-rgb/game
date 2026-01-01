@@ -22,7 +22,7 @@ document.addEventListener("keyup", (e) => {
 
 //自機を動かす
 function movePlayer(){
-    if (keys["Arrowleft"] && player.x > 0) {
+    if (keys["ArrowLeft"] && player.x > 0) {
         player.x -= player.speed;
     }
     if (keys["ArrowRight"] && player.x < canvas.width - player.width) {
